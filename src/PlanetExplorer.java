@@ -52,8 +52,6 @@ public class PlanetExplorer {
 		pos_y = 0;
 		
 		
-		
-		
 		for(int i = 0; i < command.length(); i++){
 			char order = command.charAt(i);
 			if(order == 'f' || order == 'b'){
