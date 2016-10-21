@@ -35,6 +35,7 @@ public class PlanetExplorer {
 			char order = command.charAt(i);
 			switch(facing){
 			case 'N' : 	switch (order) {
+			System.out.println("Test");
 						case 'f' : pos_y = pos_y + 1;
 						case 'b' : pos_y = pos_y - 1;
 						case 'l' : facing = 'W';
