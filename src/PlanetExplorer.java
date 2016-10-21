@@ -25,17 +25,16 @@ public class PlanetExplorer {
 		 * Where pos_x and pos_y are the final coordinates, facing is the current direction the explorer is pointing to (N,S,W,E).
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
-		int pos_x = 0;
-		int pos_y = 0;
-		char facing = 'N';
+		int pos_x;
+		int pos_y;
+		char facing;
 		
 		// ffrff
-		
+		facing = 'N';
 		for(int i = 0; i < command.length(); i++){
 			char order = command.charAt(i);
 			switch(facing){
 			case 'N' : 	switch (order) {
-			System.out.println("Test");
 						case 'f' : pos_y = pos_y + 1;
 						case 'b' : pos_y = pos_y - 1;
 						case 'l' : facing = 'W';
