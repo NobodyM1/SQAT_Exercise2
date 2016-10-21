@@ -147,3 +147,4 @@ RefactoringAction 1477054702252 TestPlanetExplorer.java RENAME test_command_()=>
 RefactoringAction 1477054705263 TestPlanetExplorer.java RENAME test_command_hitting()=>void test_command_hitting_border() METHOD
 EditAction 1477054758051 TestPlanetExplorer.java 1410 7 21 7
 EditAction 1477054802624 TestPlanetExplorer.java 1417 7 21 7
+EditAction 1477054809979 PlanetExplorer.java 2572 2 9 0
