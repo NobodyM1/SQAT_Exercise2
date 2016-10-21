@@ -56,3 +56,6 @@ RefactoringAction 1477052525280 TestPlanetExplorer.java RENAME test_command_fowa
 RefactoringAction 1477052530293 TestPlanetExplorer.java RENAME test_command_foward()/3=>void test_command_left() METHOD
 RefactoringAction 1477052534806 TestPlanetExplorer.java RENAME test_command_foward()/2=>void test_command_right() METHOD
 EditAction 1477052566948 TestPlanetExplorer.java 1018 5 15 5
+UnitTestCaseAction 1477052569578 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1477052569579 TestPlanetExplorer.java FAIL
+EditAction 1477052603618 PlanetExplorer.java 1579 2 6 0
