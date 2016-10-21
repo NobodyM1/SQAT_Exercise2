@@ -35,4 +35,12 @@ public class TestPlanetExplorer {
 		String start = test.executeCommand("r");
 		assertEquals("(0,0,E)", start);
 	}
+	@Test
+	public void test_command_string() {
+		PlanetExplorer test = new PlanetExplorer(100, 100, null);
+		String start = test.executeCommand("ffrff");
+		assertEquals("(2,2,E)", start);
+	}
+	
+	
 }

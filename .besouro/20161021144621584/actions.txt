@@ -132,3 +132,8 @@ UnitTestSessionAction 1477054279664 TestPlanetExplorer.java OK
 RefactoringAction 1477054286927 PlanetExplorer.java ADD String journey FIELD
 RefactoringAction 1477054287939 PlanetExplorer.java REMOVE journey FIELD
 EditAction 1477054347543 PlanetExplorer.java 2566 2 9 0
+UnitTestCaseAction 1477054349850 TestPlanetExplorer.java OK
+UnitTestSessionAction 1477054349851 TestPlanetExplorer.java OK
+RefactoringAction 1477054390125 TestPlanetExplorer.java ADD void test_command_right()/2 METHOD
+RefactoringAction 1477054395632 TestPlanetExplorer.java RENAME test_command_right()/2=>void test_command_string() METHOD
+EditAction 1477054409583 TestPlanetExplorer.java 1210 6 18 6
