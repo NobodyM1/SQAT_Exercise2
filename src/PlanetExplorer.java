@@ -31,6 +31,8 @@ public class PlanetExplorer {
 		
 		String journey = pos_x + "," + pos_y + "," + facing;
 		
+		
+		
 		return journey;
 	}
 }

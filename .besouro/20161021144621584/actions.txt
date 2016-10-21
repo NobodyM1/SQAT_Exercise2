@@ -19,3 +19,4 @@ RefactoringAction 1477051501495 TestPlanetExplorer.java RENAME test_()=>void tes
 RefactoringAction 1477051503505 TestPlanetExplorer.java RENAME test_command()=>void test_command_fo() METHOD
 RefactoringAction 1477051506514 TestPlanetExplorer.java RENAME test_command_fo()=>void test_command_foward() METHOD
 EditAction 1477051544223 TestPlanetExplorer.java 468 2 6 2
+EditAction 1477051549153 PlanetExplorer.java 1392 2 5 0
