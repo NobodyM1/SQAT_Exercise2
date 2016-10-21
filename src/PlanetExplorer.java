@@ -43,6 +43,7 @@ public class PlanetExplorer {
 						case 'l' : facing = 'W';
 						case 'r' : facing = 'E';
 						};
+						/*
 			case 'E' : 	switch (order) {
 						case 'f' : pos_x = pos_x + 1;
 						case 'b' : pos_x = pos_x - 1;
@@ -61,8 +62,9 @@ public class PlanetExplorer {
 						case 'l' : facing = 'S';
 						case 'r' : facing = 'N';
 						};
+						*/
 			}
-			System.out.println(pos_x + "," + pos_y + "," + facing);
+			//System.out.println(pos_x + "," + pos_y + "," + facing);
 		}
 		String journey = "(" + pos_x + "," + pos_y + "," + facing + ")";
 		return journey;
