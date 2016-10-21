@@ -37,3 +37,6 @@ RefactoringAction 1477051710247 PlanetExplorer.java RENAME stringReader()=>char 
 RefactoringAction 1477052011804 PlanetExplorer.java REMOVE stringReader(String) METHOD
 RefactoringAction 1477052207261 PlanetExplorer.java ADD import org.junit.Assert.assertEquals IMPORT
 EditAction 1477052314703 PlanetExplorer.java 1532 2 6 0
+UnitTestCaseAction 1477052321286 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1477052321287 TestPlanetExplorer.java FAIL
+EditAction 1477052386134 TestPlanetExplorer.java 472 2 6 2
