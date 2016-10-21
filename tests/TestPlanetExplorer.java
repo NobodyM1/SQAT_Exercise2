@@ -7,7 +7,7 @@ public class TestPlanetExplorer {
 	@Test
 	public void test_startingPosition_00() {
 		PlanetExplorer test = new PlanetExplorer(100, 100, null);
-		String start = test.executeCommand(null);
+		String start = test.executeCommand("");
 		assertEquals("(0,0,N)", start);
 	}
 	
