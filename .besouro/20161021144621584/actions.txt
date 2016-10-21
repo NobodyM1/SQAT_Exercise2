@@ -47,3 +47,12 @@ EditAction 1477052471248 PlanetExplorer.java 1546 2 6 0
 UnitTestCaseAction 1477052478310 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1477052478311 TestPlanetExplorer.java FAIL
 EditAction 1477052496937 TestPlanetExplorer.java 470 2 6 2
+UnitTestCaseAction 1477052500786 TestPlanetExplorer.java OK
+UnitTestSessionAction 1477052500787 TestPlanetExplorer.java OK
+RefactoringAction 1477052516733 TestPlanetExplorer.java ADD void test_command_foward()/2 METHOD
+RefactoringAction 1477052519247 TestPlanetExplorer.java ADD void test_command_foward()/3 METHOD
+RefactoringAction 1477052520764 TestPlanetExplorer.java ADD void test_command_foward()/4 METHOD
+RefactoringAction 1477052525280 TestPlanetExplorer.java RENAME test_command_foward()/4=>void test_command_back() METHOD
+RefactoringAction 1477052530293 TestPlanetExplorer.java RENAME test_command_foward()/3=>void test_command_left() METHOD
+RefactoringAction 1477052534806 TestPlanetExplorer.java RENAME test_command_foward()/2=>void test_command_right() METHOD
+EditAction 1477052566948 TestPlanetExplorer.java 1018 5 15 5

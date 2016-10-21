@@ -17,4 +17,22 @@ public class TestPlanetExplorer {
 		String start = test.executeCommand("f");
 		assertEquals("(0,1,N)", start);
 	}
+	@Test
+	public void test_command_back() {
+		PlanetExplorer test = new PlanetExplorer(100, 100, null);
+		String start = test.executeCommand("f");
+		assertEquals("(0,-1,N)", start);
+	}
+	@Test
+	public void test_command_left() {
+		PlanetExplorer test = new PlanetExplorer(100, 100, null);
+		String start = test.executeCommand("f");
+		assertEquals("(0,0,W)", start);
+	}
+	@Test
+	public void test_command_right() {
+		PlanetExplorer test = new PlanetExplorer(100, 100, null);
+		String start = test.executeCommand("f");
+		assertEquals("(0,1,E)", start);
+	}
 }
