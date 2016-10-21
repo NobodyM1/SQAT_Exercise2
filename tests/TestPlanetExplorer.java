@@ -41,6 +41,12 @@ public class TestPlanetExplorer {
 		String start = test.executeCommand("ffrff");
 		assertEquals("(2,2,E)", start);
 	}
+	@Test
+	public void test_command_hitting_border() {
+		PlanetExplorer test = new PlanetExplorer(10, 10, null);
+		String start = test.executeCommand("fffffrfffff");
+		assertEquals("(0,0,E)", start);
+	}
 	
 	
 }

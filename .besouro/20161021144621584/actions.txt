@@ -137,3 +137,12 @@ UnitTestSessionAction 1477054349851 TestPlanetExplorer.java OK
 RefactoringAction 1477054390125 TestPlanetExplorer.java ADD void test_command_right()/2 METHOD
 RefactoringAction 1477054395632 TestPlanetExplorer.java RENAME test_command_right()/2=>void test_command_string() METHOD
 EditAction 1477054409583 TestPlanetExplorer.java 1210 6 18 6
+UnitTestCaseAction 1477054413650 TestPlanetExplorer.java OK
+UnitTestSessionAction 1477054413651 TestPlanetExplorer.java OK
+RefactoringAction 1477054689190 TestPlanetExplorer.java ADD void test_command_right()/2 METHOD
+RefactoringAction 1477054692703 TestPlanetExplorer.java RENAME test_command_right()/2=>void test_command_() METHOD
+RefactoringAction 1477054694218 TestPlanetExplorer.java RENAME test_command_()=>void test_command_out() METHOD
+RefactoringAction 1477054696738 TestPlanetExplorer.java RENAME test_command_out()=>void test_command_() METHOD
+RefactoringAction 1477054702252 TestPlanetExplorer.java RENAME test_command_()=>void test_command_hitting() METHOD
+RefactoringAction 1477054705263 TestPlanetExplorer.java RENAME test_command_hitting()=>void test_command_hitting_border() METHOD
+EditAction 1477054758051 TestPlanetExplorer.java 1410 7 21 7
