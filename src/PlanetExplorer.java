@@ -63,7 +63,6 @@ public class PlanetExplorer {
 						};
 			}
 		}
-		System.out.println(pos_y );
 		String journey = "(" + pos_x + "," + pos_y + "," + facing + ")";
 		return journey;
 	}
