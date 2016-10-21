@@ -20,8 +20,8 @@ public class TestPlanetExplorer {
 	@Test
 	public void test_command_back() {
 		PlanetExplorer test = new PlanetExplorer(100, 100, null);
-		String start = test.executeCommand("b");
-		assertEquals("(0,-1,N)", start);
+		String start = test.executeCommand("fb");
+		assertEquals("(0,0,N)", start);
 	}
 	@Test
 	public void test_command_left() {

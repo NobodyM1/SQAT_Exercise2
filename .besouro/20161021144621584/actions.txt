@@ -189,3 +189,6 @@ RefactoringAction 1477057072110 PlanetExplorer.java ADD char outOfMapIfBackwards
 RefactoringAction 1477057074124 PlanetExplorer.java REMOVE outOfMapIfBackwards FIELD
 RefactoringAction 1477057084675 PlanetExplorer.java RENAME outOfMap(int, int, int, int, char)=>char outOfMap(int, int, int, int, char, char) METHOD
 EditAction 1477057520188 PlanetExplorer.java 3228 3 14 0
+UnitTestCaseAction 1477057522966 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1477057522967 TestPlanetExplorer.java FAIL
+EditAction 1477057550590 TestPlanetExplorer.java 1417 7 21 7
