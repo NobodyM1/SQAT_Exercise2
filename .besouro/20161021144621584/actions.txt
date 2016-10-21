@@ -23,3 +23,17 @@ EditAction 1477051549153 PlanetExplorer.java 1392 2 5 0
 UnitTestCaseAction 1477051553207 TestPlanetExplorer.java OK
 UnitTestSessionAction 1477051553208 TestPlanetExplorer.java OK
 EditAction 1477051580388 TestPlanetExplorer.java 468 2 6 2
+UnitTestCaseAction 1477051583590 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1477051583591 TestPlanetExplorer.java FAIL
+FileOpenedAction 1477051608230 Spreadsheet.java 1161 3 7 0
+RefactoringAction 1477051691590 PlanetExplorer.java ADD char S FIELD
+RefactoringAction 1477051692606 PlanetExplorer.java REMOVE S FIELD
+RefactoringAction 1477051697623 PlanetExplorer.java ADD char string FIELD
+RefactoringAction 1477051699139 PlanetExplorer.java RENAME string=>char stringReader FIELD
+RefactoringAction 1477051700659 PlanetExplorer.java RENAME stringReader=>char stringReader() METHOD
+RefactoringAction 1477051708213 PlanetExplorer.java RENAME stringReader()=>char stringReader(String) METHOD
+RefactoringAction 1477051709232 PlanetExplorer.java RENAME stringReader(String)=>char stringReader() METHOD
+RefactoringAction 1477051710247 PlanetExplorer.java RENAME stringReader()=>char stringReader(String) METHOD
+RefactoringAction 1477052011804 PlanetExplorer.java REMOVE stringReader(String) METHOD
+RefactoringAction 1477052207261 PlanetExplorer.java ADD import org.junit.Assert.assertEquals IMPORT
+EditAction 1477052314703 PlanetExplorer.java 1532 2 6 0

@@ -31,8 +31,13 @@ public class PlanetExplorer {
 		
 		String journey = pos_x + "," + pos_y + "," + facing;
 		
-		
-		
+		for(int i = 0; i < command.length(); i++){
+			char order = command.charAt(i);
+			
+			switch (order) {
+			case 'f' : pos_y = pos_y + 1;
+			}
+		}
 		return journey;
 	}
 }
