@@ -29,13 +29,35 @@ public class PlanetExplorer {
 		int pos_y = 0;
 		char facing = 'N';
 		
-		
+		// ffrff
 		
 		for(int i = 0; i < command.length(); i++){
 			char order = command.charAt(i);
-			switch (order) {
-			case 'f' : pos_y = pos_y + 1;
-			case 'b' : pos_y = pos_y - 1;
+			switch(facing){
+			case 'N' : 	switch (order) {
+						case 'f' : pos_y = pos_y + 1;
+						case 'b' : pos_y = pos_y - 1;
+						case 'l' : facing = 'W';
+						case 'r' : facing = 'E';
+						};
+			case 'E' : 	switch (order) {
+						case 'f' : pos_x = pos_x + 1;
+						case 'b' : pos_x = pos_x - 1;
+						case 'l' : facing = 'N';
+						case 'r' : facing = 'S';
+						};
+			case 'S' : 	switch (order) {
+						case 'f' : pos_y = pos_y - 1;
+						case 'b' : pos_y = pos_y + 1;
+						case 'l' : facing = 'E';
+						case 'r' : facing = 'W';
+						};
+			case 'W' : 	switch (order) {
+						case 'f' : pos_x = pos_x - 1;
+						case 'b' : pos_x = pos_x + 1;
+						case 'l' : facing = 'S';
+						case 'r' : facing = 'N';
+						};
 			}
 		}
 		
