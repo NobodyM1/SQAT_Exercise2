@@ -29,7 +29,7 @@ public class PlanetExplorer {
 		int pos_y = 0;
 		char facing = 'N';
 		
-		String journey = pos_x + "," + pos_y + "," + facing;
+		String journey = "(" + pos_x + "," + pos_y + "," + facing + ")";
 		
 		for(int i = 0; i < command.length(); i++){
 			char order = command.charAt(i);
