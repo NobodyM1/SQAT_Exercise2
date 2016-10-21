@@ -148,3 +148,22 @@ RefactoringAction 1477054705263 TestPlanetExplorer.java RENAME test_command_hitt
 EditAction 1477054758051 TestPlanetExplorer.java 1410 7 21 7
 EditAction 1477054802624 TestPlanetExplorer.java 1417 7 21 7
 EditAction 1477054809979 PlanetExplorer.java 2572 2 9 0
+UnitTestCaseAction 1477054812348 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1477054812349 TestPlanetExplorer.java FAIL
+RefactoringAction 1477055116021 PlanetExplorer.java ADD String outOfMap FIELD
+RefactoringAction 1477055117033 PlanetExplorer.java RENAME outOfMap=>String outOfMap() METHOD
+RefactoringAction 1477055135074 PlanetExplorer.java RENAME outOfMap()=>String outOfMap(int METHOD
+RefactoringAction 1477055137088 PlanetExplorer.java RENAME outOfMap(int=>String outOfMap() METHOD
+RefactoringAction 1477055153652 PlanetExplorer.java RENAME outOfMap()=>String outOfMap(int METHOD
+RefactoringAction 1477055185205 PlanetExplorer.java RENAME outOfMap(int=>String outOfMap(int METHOD
+RefactoringAction 1477055215341 PlanetExplorer.java RENAME outOfMap(int=>String outOfMap(int METHOD
+RefactoringAction 1477055421471 PlanetExplorer.java REMOVE outOfMap(int METHOD
+RefactoringAction 1477055442987 PlanetExplorer.java ADD String outOfMap(int METHOD
+RefactoringAction 1477055465504 PlanetExplorer.java RENAME outOfMap(int=>String outOfMap() METHOD
+RefactoringAction 1477055467518 PlanetExplorer.java RENAME outOfMap()=>String outOfMap(int, int, int, char) METHOD
+RefactoringAction 1477055471530 PlanetExplorer.java RENAME outOfMap(int, int, int, char)=>String outOfMap(int, int, int, int, char) METHOD
+RefactoringAction 1477056038746 PlanetExplorer.java ADD int x FIELD
+RefactoringAction 1477056047354 PlanetExplorer.java REMOVE x FIELD
+RefactoringAction 1477056055369 PlanetExplorer.java ADD int x FIELD
+RefactoringAction 1477056056884 PlanetExplorer.java ADD int y FIELD
+EditAction 1477056862757 PlanetExplorer.java 3158 3 14 0

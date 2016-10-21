@@ -4,6 +4,9 @@
 // Finish time:
 
 public class PlanetExplorer {
+	int x;
+	int y;
+
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
 	 *  Obstacles is a String formatted as follows: "(obs1_x,obs1_y)(obs2_x,obs2_y)...(obsN_x,obsN_y)" with no white spaces. 
@@ -12,8 +15,20 @@ public class PlanetExplorer {
 		PlanetExplorer explorer = new PlanetExplorer(100,100,"(5,5)(7,8)")  
 		 
 	 */
+		this.x = x;
+		this.y = y;
 		
+	}
+	
+	public char outOfMap(int x, int y, int pos_x, int pos_y, char facing){
+		if(pos_x == x && facing == 'E' || pos_x == x && facing == 'W' || pos_x == 0 && facing == 'E' || pos_x == 0 && facing == 'W'){
+			return 'y';
+		}
+		if(pos_y == y && facing == 'N' || pos_y == y && facing == 'S' || pos_y == 0 && facing == 'N' || pos_y == 0 && facing == 'S'){
+			return 'y';
+		}
 		
+		return 'n';
 	}
 	
 	public String executeCommand(String command){
@@ -27,7 +42,7 @@ public class PlanetExplorer {
 		 * Where pos_x and pos_y are the final coordinates, facing is the current direction the explorer is pointing to (N,S,W,E).
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
-		int pos_x;
+		int pos_x ;
 		int pos_y;
 		char facing;
 		
@@ -36,8 +51,18 @@ public class PlanetExplorer {
 		pos_x = 0;
 		pos_y = 0;
 		
+		
+		
+		
 		for(int i = 0; i < command.length(); i++){
 			char order = command.charAt(i);
+			if(order == 'f' || order == 'b'){
+				char onEdge = outOfMap(x, y, pos_x, pos_y, facing);
+				if(onEdge == 'y'){
+					continue;
+				}
+			}
+			
 			switch(facing){
 			case 'N' : 	switch (order) {
 						case 'f' : pos_y = pos_y + 1;
