@@ -41,7 +41,7 @@ public class PlanetExplorer {
 						case 'b' : pos_y = pos_y - 1;
 						case 'l' : facing = 'W';
 						case 'r' : facing = 'E';
-						};
+						}
 						/*
 			case 'E' : 	switch (order) {
 						case 'f' : pos_x = pos_x + 1;
