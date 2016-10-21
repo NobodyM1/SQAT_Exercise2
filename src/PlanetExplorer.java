@@ -36,7 +36,7 @@ public class PlanetExplorer {
 			char order = command.charAt(i);
 			switch (order) {
 						case 'f' : pos_y = pos_y + 1;
-						
+						case 'b' : pos_y = pos_y - 1;
 						
 						}
 						/*
