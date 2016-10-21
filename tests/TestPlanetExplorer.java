@@ -15,6 +15,6 @@ public class TestPlanetExplorer {
 	public void test_command_foward() {
 		PlanetExplorer test = new PlanetExplorer(100, 100, null);
 		String start = test.executeCommand("f");
-		assertEquals("0,0,N", start);
+		assertEquals("0,1,N", start);
 	}
 }
