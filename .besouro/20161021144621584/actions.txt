@@ -171,3 +171,21 @@ EditAction 1477056877808 PlanetExplorer.java 3152 3 14 0
 UnitTestCaseAction 1477056880726 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1477056880727 TestPlanetExplorer.java FAIL
 EditAction 1477056951969 PlanetExplorer.java 3091 3 14 0
+UnitTestCaseAction 1477056955036 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1477056955037 TestPlanetExplorer.java FAIL
+RefactoringAction 1477056970327 PlanetExplorer.java ADD char ou FIELD
+RefactoringAction 1477056971342 PlanetExplorer.java RENAME ou=>char out FIELD
+RefactoringAction 1477056972856 PlanetExplorer.java RENAME out=>char outOf FIELD
+RefactoringAction 1477056975871 PlanetExplorer.java RENAME outOf=>char outOfMap FIELD
+RefactoringAction 1477056977888 PlanetExplorer.java RENAME outOfMap=>char outOfMapIf FIELD
+RefactoringAction 1477056978904 PlanetExplorer.java RENAME outOfMapIf=>char outOfMapIfFo FIELD
+RefactoringAction 1477056981918 PlanetExplorer.java RENAME outOfMapIfFo=>char outOfMapIfBack FIELD
+RefactoringAction 1477056983933 PlanetExplorer.java RENAME outOfMapIfBack=>char outOfMapIfBackwards FIELD
+RefactoringAction 1477056988951 PlanetExplorer.java RENAME outOfMap(int, int, int, int, char)=>char outOfMapIf(int, int, int, int, char) METHOD
+RefactoringAction 1477056990972 PlanetExplorer.java RENAME outOfMapIf(int, int, int, int, char)=>char outOfMapIfFoward(int, int, int, int, char) METHOD
+RefactoringAction 1477056995987 PlanetExplorer.java RENAME outOfMapIfBackwards=>char outOfMapIfBackwards(int, int, int, int, char) METHOD
+RefactoringAction 1477057072108 PlanetExplorer.java ADD char outOfMap(int, int, int, int, char) METHOD
+RefactoringAction 1477057072110 PlanetExplorer.java ADD char outOfMapIfBackwards FIELD
+RefactoringAction 1477057074124 PlanetExplorer.java REMOVE outOfMapIfBackwards FIELD
+RefactoringAction 1477057084675 PlanetExplorer.java RENAME outOfMap(int, int, int, int, char)=>char outOfMap(int, int, int, int, char, char) METHOD
+EditAction 1477057520188 PlanetExplorer.java 3228 3 14 0

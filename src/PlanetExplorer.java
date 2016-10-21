@@ -20,12 +20,17 @@ public class PlanetExplorer {
 		
 	}
 	
-	public char outOfMap(int x, int y, int pos_x, int pos_y, char facing){
-		if(pos_x == x && facing == 'E' || pos_x == x && facing == 'W' || pos_x == 0 && facing == 'E' || pos_x == 0 && facing == 'W'){
-			return 'y';
+	public char outOfMap(int x, int y, int pos_x, int pos_y, char facing, char order){
+		
+		if(order == 'f'){
+			if(pos_x == x && facing == 'E' || pos_x == 0 && facing == 'W' || pos_y == y && facing == 'N' || pos_y == 0 && facing == 'S'){
+				return 'y';
+			}
 		}
-		if(pos_y == y && facing == 'N' || pos_y == y && facing == 'S' ){
-			return 'y';
+		if(order == 'b'){
+			if(pos_x == x && facing == 'W' || pos_x == 0 && facing == 'E' || pos_y == y && facing == 'S' || pos_y == 0 && facing == 'N'){
+				return 'y';
+			}
 		}
 		
 		return 'n';
@@ -55,7 +60,7 @@ public class PlanetExplorer {
 		for(int i = 0; i < command.length(); i++){
 			char order = command.charAt(i);
 			if(order == 'f' || order == 'b'){
-				char onEdge = outOfMap(x, y, pos_x, pos_y, facing);
+				char onEdge = outOfMap(x, y, pos_x, pos_y, facing, order);
 				if(onEdge == 'y'){
 					continue;
 				}
