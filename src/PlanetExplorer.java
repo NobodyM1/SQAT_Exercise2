@@ -24,7 +24,7 @@ public class PlanetExplorer {
 		if(pos_x == x && facing == 'E' || pos_x == x && facing == 'W' || pos_x == 0 && facing == 'E' || pos_x == 0 && facing == 'W'){
 			return 'y';
 		}
-		if(pos_y == y && facing == 'N' || pos_y == y && facing == 'S' || pos_y == 0 && facing == 'N' || pos_y == 0 && facing == 'S'){
+		if(pos_y == y && facing == 'N' || pos_y == y && facing == 'S' ){
 			return 'y';
 		}
 		
