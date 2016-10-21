@@ -36,7 +36,8 @@ public class PlanetExplorer {
 		
 		for(int i = 0; i < command.length(); i++){
 			char order = command.charAt(i);
-			switch (order) {
+			switch(facing){
+			case 'N' : 	switch (order) {
 						case 'f' : pos_y = pos_y + 1;
 						break;
 						case 'b' : pos_y = pos_y - 1;
@@ -45,28 +46,42 @@ public class PlanetExplorer {
 						break;
 						case 'r' : facing = 'E';
 						break;
-						}
-						/*
+						};
+						break;
 			case 'E' : 	switch (order) {
 						case 'f' : pos_x = pos_x + 1;
+						break;
 						case 'b' : pos_x = pos_x - 1;
+						break;
 						case 'l' : facing = 'N';
+						break;
 						case 'r' : facing = 'S';
+						break;
 						};
+						break;
 			case 'S' : 	switch (order) {
 						case 'f' : pos_y = pos_y - 1;
+						break;
 						case 'b' : pos_y = pos_y + 1;
+						break;
 						case 'l' : facing = 'E';
+						break;
 						case 'r' : facing = 'W';
+						break;
 						};
+						break;
 			case 'W' : 	switch (order) {
 						case 'f' : pos_x = pos_x - 1;
+						break;
 						case 'b' : pos_x = pos_x + 1;
+						break;
 						case 'l' : facing = 'S';
+						break;
 						case 'r' : facing = 'N';
+						break;
 						};
-						*/
-			
+						break;
+			}
 			//System.out.println(pos_x + "," + pos_y + "," + facing);
 		}
 		String journey = "(" + pos_x + "," + pos_y + "," + facing + ")";
