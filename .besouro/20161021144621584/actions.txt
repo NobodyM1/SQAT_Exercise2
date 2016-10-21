@@ -104,3 +104,6 @@ EditAction 1477053763797 PlanetExplorer.java 2304 2 9 0
 UnitTestCaseAction 1477053767138 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1477053767139 TestPlanetExplorer.java FAIL
 EditAction 1477053887039 PlanetExplorer.java 2324 2 9 0
+RefactoringAction 1477053901524 PlanetExplorer.java ADD String journey FIELD
+RefactoringAction 1477053902538 PlanetExplorer.java REMOVE journey FIELD
+EditAction 1477053903211 PlanetExplorer.java 2292 2 9 0
